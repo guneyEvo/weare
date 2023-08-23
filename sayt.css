@@ -1,0 +1,539 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+
+}
+
+nav {
+   display: flex;
+   background-color: white;
+   color: black;
+   justify-content: space-between;
+   height: 20vh;
+   align-items: center;
+   border-bottom: 1px solid grey;
+   padding: 55px;
+
+}
+
+.nbr_right {
+   display: flex;
+   gap: 20px;
+}
+
+.nbr_right a:hover {
+   color: grey;
+}
+
+.we {
+   text-align: center;
+   margin-top: 50px;
+}
+
+.we p {
+   margin-top: 20px;
+   text-align: center;
+}
+
+.wekiler {
+   padding: 55px;
+   margin-top: 50px;
+   display: flex;
+   gap: 30px;
+   width: 100%;
+
+}
+
+.slayd {
+   display: flex;
+  width: 70%;
+   position: relative;
+}
+
+
+.slayd:hover.birici{
+   transform: 2s;
+}
+.slayd:hover.ikinci{
+   transform:scale(1) ;
+}
+
+
+
+
+
+.slbtn button{
+   border-style: none;
+   background-color: #eeeeee;
+   color: black;
+   padding: 10px 15px;
+   position: absolute;
+   
+   
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.slbtn button:hover {
+   color: white;
+   background-color: gray;
+}
+
+
+.card:hover .card_w {
+   transform: 5s;
+}
+
+.card {
+   width: 100%;
+   
+   position: relative;
+}
+
+.card_w {
+   
+  
+}
+
+.card::before{
+   content: QUALITY CRAFTSMANSHIP;
+   background-color: rgba(128, 128, 128, 0.63);
+   position: absolute;
+   left: 20px;
+   top: 20px;
+   bottom: 20px;
+   right: 20px;
+   transition:3s ;
+   opacity:0 ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+}
+
+.card:hover:before {
+   opacity: 1;
+
+}
+.mySwiper{
+   position: relative !important;
+}
+.swiper-slide img{
+   width: 100%;
+   height: 20vh;
+}
+.meet-swiper-wrapper{
+   width: 40% !important;
+   height: 200px !important;
+}
+.meet-slide img{
+   width: 100%;
+   object-fit: cover;
+}
+.soul-next{
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+   background-color: #eeeeee;
+   padding: 10px;
+   z-index: 2;
+   
+}
+.soul-next:hover{
+background-color: grey;
+color: white;
+}
+
+.soul-prev{
+   position: absolute;
+   bottom: 20px;
+   right: 50px;
+   padding: 10px;
+   background-color:#eeeeee;
+   z-index: 2;
+   
+}
+.soul-prev:hover{
+   background-color: grey;
+   color: white;
+   }
+.meet-next{
+   position: absolute;
+   bottom: 20px;
+  
+   left: 20px;
+   background-color:#eeeeee;
+   padding: 10px;
+   z-index: 2;
+}
+.meet-prev{
+   position: absolute;
+   bottom: 20px;
+   right: 80%;
+   
+   
+   padding: 10px;
+   background-color:#eeeeee;
+   background-color: ;
+   z-index: 2;
+}
+.meet-prev:hover{
+   background-color: grey;
+   color: white;
+}
+.meet-next:hover{
+   background-color: grey;
+   color: white;
+}
+.info {
+   
+   display: flex;
+   gap: 40px;
+   padding: 55px;
+
+}
+
+.about {
+   text-align: left;
+
+}
+
+.about p {
+   color: grey;
+   text-align: left;
+}
+
+.duyme {
+   background-color: white;
+   padding: 10px 40px;
+   border: 3px solid #eeeeee;
+   margin-top: 20px;
+}
+
+.duyme:hover {
+   color: white;
+   background-color: black;
+   border-color: black;
+}
+
+.our {
+   text-align: left;
+}
+
+.our p {
+   color: grey;
+   text-align: left;
+}
+
+.ser {
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.bigbox {
+   text-align: center;
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:20px;
+
+}
+.bigbox h3{
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.bigbox i{
+   margin-top: 20px;
+   
+}
+
+.bigbox p {
+   color: grey;
+   text-align: center;
+   margin-top: 20px;
+}
+.box1 {
+;
+   width: 288px;
+   height: 275px;
+}
+
+.box2 {
+   width: 288px;
+   height: 275px;
+}
+
+.box3 {
+
+   display: inline-block;
+   width: 288px;
+   height: 275px;
+}
+
+.box4 {
+
+   display: inline-block;
+   width: 288px;
+   height: 275px;
+}
+
+.meetslayd {
+   display: flex;
+   background-color: #eeeeee;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+   margin-bottom: 10px;
+   width: 100%;
+   height: 70vh;
+   /* border-bottom: 1px solid grey; */
+}
+.mySwiper2{
+   width: 30% !important;
+   height: 50vh !important;
+}
+.swiper-wrapper img {
+   width: 100%;
+  height: 56vh;
+
+}
+
+
+
+
+
+.meetright {
+   width: 60%;
+}
+.meetright p {
+   margin-top: 20px;
+}
+
+.a {
+   gap: 10PX;
+   margin-top: 60px;
+   text-align: end;
+   color: gray;
+}
+
+a:hover {
+   color: black;
+}
+
+.recent {
+   align-items: center;
+   justify-content: center;
+
+   padding: 55px;
+   text-align: center;
+
+}
+
+.recent h1 {
+   margin-bottom: 20px;
+}
+
+.fotki1 {
+   display: flex;
+   width: 229px;
+   height: 224px;
+}
+
+.muddy {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   text-align: center;
+   height: 10vh;
+}
+
+.fotki2 {
+   display: flex;
+   width: 229px;
+   height: 224px;
+}
+
+.therails {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center;
+   height: 10vh;
+   padding-left: 10px;
+   padding-right: 50px;
+   margin-bottom: 30px;
+}
+
+.some {
+   text-align: center;
+   background-color: #eeeeee;
+   ;
+   align-items: center;
+   justify-content: center;
+   height: 75vh;
+   padding-top: 40px;
+
+}
+
+.some p {
+   margin-top: 15px;
+}
+
+.lean {
+   margin-bottom: 30px;
+}
+
+.yumruw {
+   margin-top: 10px;
+   border-radius: 50%;
+}
+
+.dm {
+   background-color: black;
+   color: white;
+   width: 30px;
+   height: 30px;
+   margin-top: 20px;
+   border: none;
+}
+
+.dm:hover {
+   background-color: gray;
+}
+
+.contact {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.con {
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+
+   padding: 55px;
+   text-align: center;
+
+}
+
+.con p {
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+
+.con iframe {
+   width: 100%;
+}
+
+
+.dr {
+   width: 100%;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   padding: 55px;
+}
+
+.drop {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   text-align: left;
+   width: 60%;
+   height: 350px;
+}
+
+.oura {
+   width: 40%;
+   margin-top: 30px;
+   
+}
+.oura a{display: flex;
+   margin-top: 10px;
+   text-align: left;
+   gap: 20px;
+
+}
+
+.btn {
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.btn button {
+   padding: 10px 40px;
+   border: 2px solid grey;
+   margin-top: 5px;
+}
+
+.btn button:hover {
+   color: white;
+   background-color: black;
+   border-color: black;
+}
+
+.inputust {
+   width: 100%;
+   display: flex;
+   gap: 10px;
+}
+.inputustl,
+.inputustr {
+   border: none;
+   background-color:#eeeeee ;
+   width: 50%;
+   height: 7vh;
+}
+.inputust input:hover{
+   background-color: black;
+   color: white;
+}
+.inputalt textarea {
+   background-color:#eeeeee ;
+   width: 100%;
+   resize: none;
+   height: 20vh;
+   border: none;
+}
+.inputalt textarea:hover{
+   background-color: black;
+   color: white;
+}
+
+footer{
+   display: flex;
+   background-color: #eeeeee;
+   color: grey;
+   justify-content: space-between;
+   height: 10vh;
+   align-items: center;
+   border-bottom: 1px solid grey;
+   padding: 55px;
+   margin-bottom: 90px;
+   margin-top:50px ;
+
+}
+
+.footer_left {
+   display: flex;
+   gap: 20px;
+
+}
+
+.footer_left:hover {
+   color: black;
+}
